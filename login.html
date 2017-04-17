@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="lib/slick-1.6.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="lib/slick-1.6.0/slick/slick.css">
+
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="lib/slick-1.6.0/slick/slick.js"></script>
+</head>
+<body>
+<div class="container-fluid full-height no-padding login-page">
+    <div class="left-side full-height">
+        <div class="slides">
+            <div>
+                <div class="slide-content slide-content-1">
+                    <div class="content-detail">
+                        <div class="img_logo">
+                            <img src="./image/logo.png" alt="" width="143px" height="49px">
+                        </div>
+                        <div class="content">
+                            <div class="header-content">
+                                EAT & COOK WITH US!
+                            </div>
+                            <div class="description">
+                                Comes along with the mobile app, CIBOS is a website platform which provide user ability
+                                to enjoy delicious food and expand their business!
+                                <br>
+                                <br>
+                                Register now to access our full services!
+                            </div>
+                            <div class="button-register">
+                                <button class="btn btn-lg">REGISTER NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slide-content slide-content-2">
+                    <div class="content-detail">
+                        <div class="img_logo">
+                            <img src="./image/logo.png" alt="" width="143px" height="49px">
+                        </div>
+                        <div class="content">
+                            <div class="header-content">
+                                EAT & COOK WITH US!
+                            </div>
+                            <div class="description">
+                                Comes along with the mobile app, CIBOS is a website platform which provide user ability
+                                to enjoy delicious food and expand their business!
+                                <br>
+                                <br>
+                                Register now to access our full services!
+                            </div>
+                            <div class="button-register">
+                                <button class="btn btn-lg">REGISTER NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+                <div class="slide-content slide-content-3">
+                    <div class="content-detail">
+                        <div class="img_logo">
+                            <img src="./image/logo.png" alt="" width="143px" height="49px">
+                        </div>
+                        <div class="content">
+                            <div class="header-content">
+                                EAT & COOK WITH US!
+                            </div>
+                            <div class="description">
+                                Comes along with the mobile app, CIBOS is a website platform which provide user ability
+                                to enjoy delicious food and expand their business!
+                                <br>
+                                <br>
+                                Register now to access our full services!
+                            </div>
+                            <div class="button-register">
+                                <button class="btn btn-lg">REGISTER NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dots"></div>
+    </div>
+    <div class="right-side full-height">
+        <div class="page-header-content">
+            SIGN IN!
+        </div>
+        <div class="row input-group-login">
+            <div class="col-md-1 icon-content">
+                <img src="image/ic-mail-outline.svg"
+                     class="ic_mail_outline">
+            </div>
+            <div class="col-md-11">
+                <input type="email" placeholder="Email Address">
+            </div>
+        </div>
+        <div class="row input-group-login">
+            <div class="col-md-1 icon-content">
+                <img src="image/ic-lock-outline.svg"
+                     class="ic_lock_outline">
+            </div>
+            <div class="col-md-11">
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 no-padding">
+                <button class="btn btn-lg btn-signin">SIGN IN</button>
+            </div>
+        </div>
+        <div class="row footer-button">
+            <div class="col-md-6">
+                <input type="checkbox" id="rememberMe" name="selector">
+                <label class="checkbox-label" for="rememberMe">Remember me</label>
+
+                <div class="check"></div>
+            </div>
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="forgot-password">Forgot your password?</a>
+            </div>
+        </div>
+        <div class="footer-info">
+            <span class="branch-name">CIBO$- </span><span class="copyright">Copy Right 2017</span>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $('.slides').slick({
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            appendDots: '.dots',
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: false
+        });
+    })
+</script>
+</html>

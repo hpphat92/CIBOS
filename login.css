@@ -1,0 +1,249 @@
+.login-page {
+    overflow: hidden;
+}
+
+.left-side {
+    width: 57%;
+    position: relative;
+    float: left;
+}
+
+.right-side {
+    width: 43%;
+    display: inline-block;
+    background-color: #22272d;
+}
+
+.slide-content {
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.slide-content-1 {
+    background: url(image/restaurant.png) no-repeat;
+}
+
+.slide-content-2 {
+    background: url(image/restaurant2.jpg) no-repeat;
+}
+
+.slide-content-3 {
+    background: url(image/restaurant3.jpg) no-repeat;
+}
+
+.slide-content:before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slide-content .content-detail {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    padding: 0 108px;
+    width: 100%;
+}
+
+.slide-content .content-detail .img_logo img{
+    margin: 0 auto;
+}
+
+.slide-content .content-detail .content {
+    margin-top: 15vh;
+}
+
+.slide-content .header-content {
+    font-family: GothamRounded;
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.slide-content .description {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button-register {
+    margin-top: 5vh;
+}
+
+.button-register .btn {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    width: 50%;
+    background: linear-gradient(99deg, #90e234, #1eba39);
+}
+
+.dots {
+    display: block;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.dots .slick-dots {
+    position: relative;
+    top: 0;
+    padding: 0;
+}
+
+
+/*Right side*/
+.right-side {
+    padding: 0 63px !important;
+    position: relative;
+}
+.page-header-content {
+    font-family: GothamRounded;
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 15vh;
+}
+.right-side input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+}
+.right-side i {
+    color: #fff;
+}
+.right-side .icon-content {
+    line-height: 54px;
+}
+.ic_mail_outline {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.ic_lock_outline {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+.input-group-login {
+    border-bottom: 2px solid #d1d6db;
+    padding-bottom: 5px;
+}
+.input-group-login + .input-group-login {
+    margin-top: 25px;
+}
+.right-side .btn-signin.btn {
+    border-radius: 4.5px;
+    background-image: linear-gradient(99deg, #ff8f2d, #fa5302);
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 8vh;
+}
+.forgot-password {
+    font-family: Lato;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #fa5504;
+}
+.remember-me {
+    font-family: Lato;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+.footer-button {
+    margin-top: 5vh;
+}
+.footer-info {
+    position: absolute;
+    text-align: center;
+    font-family: Lato;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    color: #f7420c;
+    bottom: 2vh;
+    left: calc(50% - 100px);
+}
+.footer-info .branch-name{
+    color: #8b8b8b;
+}
+.footer-info .copyright{
+}
+/*Radio*/
+input[type=checkbox]:checked ~ .check {
+    border: none;
+}
+
+input[type=checkbox]:checked ~ .check::before{
+    background: url("image/check-o.svg") no-repeat;
+    background-size: cover;
+}
+
+input[type=checkbox]:checked ~ label{
+    user-select: none;
+    color: #fff !important;
+}
+.check{
+    display: block;
+    position: absolute;
+    border: 2px solid #AAAAAA;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+}
+.check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+}
+
+input[type=checkbox]{
+    position: absolute;
+    visibility: hidden;
+}
+
+label.checkbox-label{
+    user-select: none;
+    display: block;
+    position: relative;
+    font-weight: 300;
+    font-size: 1.35em;
+    padding-left: 40px;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    left: -15px;
+    color: #c14403
+}
