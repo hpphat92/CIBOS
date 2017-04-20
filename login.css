@@ -172,7 +172,7 @@
 
 .right-side .btn-signin.btn {
     border-radius: 4.5px;
-    background-image: linear-gradient(99deg, #ff8f2d, #fa5302);
+    background-image: linear-gradient(99deg, #ff8f2d, #fa5302) !important;
     font-family: Lato;
     font-size: 30px;
     font-weight: bold;

@@ -13,7 +13,7 @@
     <script src="lib/slick-1.6.0/slick/slick.js"></script>
 </head>
 <body>
-<div class="container-fluid full-height no-padding signup-page">
+<div class="container-fluid min-full-height no-padding signup-page">
     <div class="header-page">
         <div class="d-flex header-logo">
             <img src="./image/logo.png" alt="" width="143px" height="49px">
@@ -31,24 +31,82 @@
             </div>
         </div>
     </div>
-    <div class="wizard-content d-flex">
-        <div class="d-flex flex-column col">
-            <div class="d-flex prop-input">
-                <img src="image/ic-lock-outline.svg"
-                     class="ic_lock_outline icon-area">
-                <input type="text" placeholder="First Name">
+    <div class="wizard-content">
+        <div class="d-flex  justify-content-between">
+            <div class="d-flex flex-column column">
+                <div class="d-flex prop-input">
+                    <img src="image/outline.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/outline.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/user-id.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/ic-mail-outline.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/ic-lock-outline.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="password" placeholder="Password">
+                </div>
             </div>
-            <div class="d-flex prop-input">
-                <img src="image/ic-lock-outline.svg"
-                     class="ic_lock_outline">
-                <input type="text" placeholder="First Name">
+            <div class="splitter"></div>
+            <div class="d-flex flex-column column">
+                <div class="d-flex prop-input">
+                    <img src="image/phone.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/address.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="Address 1">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/address.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="Address 2(Optional)">
+                </div>
+                <div class="d-flex prop-input">
+                    <img src="image/city.svg"
+                         class="ic_lock_outline icon-area">
+                    <input type="text" placeholder="City">
+                </div>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex prop-input">
+                        <img src="image/state.svg"
+                             class="ic_lock_outline icon-area">
+                        <input type="text" placeholder="State">
+                    </div>
+                    <div class="space-split"></div>
+                    <div class="d-flex prop-input">
+                        <img src="image/zipcode.svg"
+                             class="ic_lock_outline icon-area">
+                        <input type="text" placeholder="Zipcode">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column col">
-            <div class="d-flex prop-input">
-                <img src="image/ic-lock-outline.svg"
-                     class="ic_lock_outline">
-                <input type="text" placeholder="First Name">
+        <div class="m-t-sm">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="arrow-left">
+                    <img src="image/ic-keyboard-arrow-left.svg" alt="">
+                </div>
+                <div class="no-padding">
+                    <button class="btn btn-lg btn-next">NEXT</button>
+                </div>
+                <div class="">
+                </div>
             </div>
         </div>
     </div>
